@@ -1,0 +1,22 @@
+.button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer; 
+}
+
+.button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.buttonInner {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
